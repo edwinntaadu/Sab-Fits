@@ -38,13 +38,13 @@ export default function Header() {
     <HeaderStyles>
       <div className="bar">
         <Logo>
-            <Link href="/">Sab Fits</Link>
+          <Link href="/">Sab Fits</Link>
         </Logo>
+        <Nav />
       </div>
       <div className="sub-bar">
       <p>Search</p>
       </div>
-      <Nav />
     </HeaderStyles>
   )
 }
