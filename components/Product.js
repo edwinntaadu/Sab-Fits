@@ -6,7 +6,6 @@ import formatMoney from "@/lib/formatMoney";
 import DeleteProduct from "./DeleteProduct";
 
 export default function Product({product}) {
-    console.log(product);
     return (
         <ItemStyles>
             <img
