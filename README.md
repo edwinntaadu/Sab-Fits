@@ -6,11 +6,14 @@
 
 ## Features
 
-- User Authentication and Permissions
-- Real Credit Card Checkout
-- Image Uploads
-- Sending Email
-- Relational GraphQL Queries
+- **User Management**: Authentication and user role management.
+- **Product Management**: Add, update, delete, and view products.
+- **Order Processing**: Complete order lifecycle from cart to checkout.
+- **Payment Integration**: Real credit card payments via Stripe.
+- **Email Notifications**: Automated email notifications for various actions.
+- **GraphQL API**: Data fetching and mutations using Apollo Client.
+- **Admin Interface**: Manage application data through a Keystone.js admin interface.
+- **Responsive Design**: Fully responsive design using Styled Components.
 
 ## Models
 
@@ -25,28 +28,21 @@ The application includes six main models:
 
 ## Technologies Used
 
-### Frontend
+- **Frontend**:
 
-- **React.js**: Building the user interface
-- **Next.js**: Server-side rendering, routing, and tooling
-- **Styled Components**: Styling
-- **Context API**: Managing local state
-- **Apollo Client**: Data management, performing GraphQL mutations, fetching data, caching, and handling error/loading states
+  - React.js: For building the user interface.
+  - Next.js: For server-side rendering, routing, and tooling.
+  - Styled Components: For styling components.
+  - Context API: For managing local state.
+  - Apollo Client: For GraphQL data management, including mutations and queries.
+  - Jest & React Testing Library: For testing.
 
-### Backend
-
-- **Keystone.js**: Node.js based GraphQL server and headless CMS
-  - Admin interface to manage data
-  - Provides GraphQL CRUD APIs for database
-  - Schema definition and data relationships
-  - Custom server-side logic
-- **Stripe**: Charging credit cards
-- **Node.js**: Backend runtime environment
-
-### Testing
-
-- **Jest**
-- **React Testing Library**
+- **Backend**:
+  - Keystone.js: Node.js-based GraphQL server and headless CMS.
+  - MongoDB or Prisma: For database management.
+  - Stripe: For payment processing.
+  - Node.js: For server-side logic.
+  - GraphQL: For API queries and mutations.
 
 ## Setup Instructions
 
