@@ -52,6 +52,12 @@ The application includes six main models:
 3. Set up environment variables
 4. Start the development server with `npm run dev`
 
-## Contributions
+## Screenshots
 
-Contributions are welcome. Please open an issue or submit a pull request.
+Here are some screenshots of the application.
+
+![Sign in Page](/assets/signIn.png)
+![Sab Fits Home Page](/assets/home.png)
+![Products Page](/assets/products.png)
+![Sell Page](/assets/sell.png)
+![Cart](/assets/cart.png)
